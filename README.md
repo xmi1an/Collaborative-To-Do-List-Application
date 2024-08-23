@@ -43,52 +43,7 @@
     ```
 7. **Create a Pull Request**: Create a pull request on the original repository.
 
-
-
-## Challenge for Students
-
-### Task 1: User Authentication
-
-**Create a basic user authentication system to allow users to register and log in.**
-
-#### Steps:
-
-1. **Create Registration Page (`register.php`)**:
-    - Form fields: Username, Email, Password, Confirm Password
-    - Validate inputs
-    - Hash passwords before storing
-    - Store user information in the database
-
-2. **Create Login Page (`login.php`)**:
-    - Form fields: Username/Email, Password
-    - Validate inputs
-    - Check credentials against the database
-    - Start a session on successful login
-
-3. **Update `config.php`**:
-    - Include `session_start();`
-
-4. **Protect Page Access**:
-    - Ensure users must be logged in to access the `index.php` and CRUD operations.
-
-#### Submission:
-
-- Once you have completed this task, create a pull request with the implemented user authentication system.
-- Make sure to test all scenarios (e.g., incorrect login, registration validation errors).
-
 ---
-
-### Upcoming Tasks
-
-- **Task 2: Task Deadline**
-- **Task 3: Task Categories**
-- **Task 4: Task Status**
-- **Task 5: UI/UX Improvements**
-- **Task 6: Search Functionality**
-- **Task 7: Sort Tasks**
-- **Task 8: Security Improvements**
-- **Task 9: Documentation Enhancement**
-- **Task 10: Unit Tests**
 
 ## Technologies Used
 
